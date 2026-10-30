@@ -1,0 +1,34 @@
+site_name: Стайлгайд документации системы распознавания рукописного текста
+site_description: Правила разработки документации по методологии Docs as Code
+site_url: https://qwertyums.github.io/style-guide-project/
+repo_url: https://github.com/Qwertyums/style-guide-project
+edit_uri: edit/main/docs/
+theme:
+  name: mkdocs
+  locale: ru
+plugins:
+  - search:
+      lang: ru
+strict: true
+validation:
+  nav:
+    omitted_files: warn
+  links:
+    not_found: warn
+    anchors: warn
+nav:
+  - Главная: index.md
+  - Руководство по стилю:
+      - Общие положения: guide/general.md
+      - Структура документации: guide/structure.md
+      - Язык и стиль: guide/language.md
+      - Терминология: guide/terms.md
+      - Форматирование: guide/formatting.md
+      - Описание функциональности: guide/features.md
+      - Ошибки и ограничения: guide/errors.md
+      - Тестирование: guide/testing.md
+  - Примеры:
+      - Инструкция пользователя: examples/user-guide.md
+      - Протокол проверки: examples/test-protocol.md
+  - Оценка стайлгайда: evaluation.md
+  - Источники: sources.md
