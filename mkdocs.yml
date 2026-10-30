@@ -27,6 +27,7 @@ nav:
       - Описание функциональности: guide/features.md
       - Ошибки и ограничения: guide/errors.md
       - Тестирование: guide/testing.md
+      - Доступность текста: guide/accessibility.md
   - Примеры:
       - Инструкция пользователя: examples/user-guide.md
       - Протокол проверки: examples/test-protocol.md
